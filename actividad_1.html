@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 01</title>
+        <link rel="stylesheet" href=".\css\styles01.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+        <h1>SUPERMERCADO</h1>
+        <article>
+        <p>Somos Supermercado de confianza ya con 10 a&ntilde;os de experiencia en productos del dia a dia</p>
+        <p>Comercializamos verduras, frutas, licores y m&aacute;s. Siempre estamos a la vanguardia de la tecnolog&iacute;a por lo que buscamos implementar el servicio online.</p>
+        <p>conoce algunos de nuestros productos</p>
+        <ul>
+            <li>Verduras</li>
+            <li>Gaseosas</li>
+            <li>Licores</li>
+            <li>Fruper</li>
+            <li>Articulos de Aseo</li>
+        </ul>
+        <P>Conoce nuestras sedes</P>
+        <center>
+        <table>
+            <tr class="head">
+                <th></th>
+                <th>Bogot&aacute;</th>
+                <th>Medellin</th>
+                <th>Ibague</th>
+            <tr>
+                <th>Sede</th>
+                <th>Av. 59 #29-2</th>
+                <th>Kr 15 sur 13-21</th>
+                <th>Cl 4b 3-4</th>
+            </tr>
+            <tr class="head">
+                <th>Bodegas</th>
+                <th>Zona Industral 15</th>
+                <th>Mazanillas</th>
+                <th>Carrozal </th>
+            </tr>
+            <tr>
+                <th>Distribuidoras</th>
+                <th>El campo elegre</th>
+                <th>MAX</th>
+                <th>Jumbo</th>
+            </tr>
+            <tr class="head">
+                <th>Oficinas</th>
+                <th>Bogota - 785139</th>
+                <th>Medellin - 451325</th>
+                <th>Ibage - 456151</th>
+            </tr>
+        </table>
+        </article></center><br>
+        <br>
+        <from action="actividad_02.html" method="get">
+            <fieldset>
+                <legend>Registrese en el taller de su interes:</legend>
+                <p><label class="title" for="name">Su Nombre:</label>
+                    <imput type="text" name="name" id="name"><br />
+                    <label class="title" for="email">Su correo</label>
+                    <input type="text" name="email" id="email"></p>
+                <p><label for="location" class"title">Su centro cercano:</label>
+                    <select name="location" id="location">
+                        <option value="bo">Bogot&aacute;</option>
+                        <option value="in">Ibague</option>
+                        <option value="me">Medellin</option>
+                    </select> </p>
+                <span class="title">Es Miembro de la Comunidad</span>
+                <label><input type="radio" name="member" value="si" />Si</label>
+                <label><input type="radio" name="member" value="no" />No</label>
+            </fieldset><br>
+        <div class="submit"><input type="submit" value="Registro" /></div><br>
+        </from>
+    </div>
+    </body>
+</html>
